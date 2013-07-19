@@ -5,8 +5,9 @@ title: Welcome to lshmouse's blog
 {% include JB/setup %}
 
 ## 联系方式    
-    email : lshmouse@gmail.com
-    
+    Email : lshmouse@gmail.com
+    Sina weibo: @lshmouse
+
 ## 文章列表
 
 <ul class="posts">
