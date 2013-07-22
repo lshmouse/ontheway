@@ -21,10 +21,10 @@ reStructuredText + sphinx + github
 markdown + github
 ==================================
 
-参考: http://wowubuntu.com/markdown/#overview
+参考: <http://wowubuntu.com/markdown/#overview>
 
 Git 使用
 =================================
-参考： http://rogerdudler.github.com/git-guide/
+参考： <http://rogerdudler.github.com/git-guide/>
 
 
