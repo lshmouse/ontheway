@@ -1,46 +1,30 @@
-# Jekyll-Bootstrap
+blog
+====
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
-
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing 
-
-This repository tracks 2 projects:
-
-- **Jekyll-Bootstrap Framework.**  
-  The framework for which users should clone and build their blog on top of is available in the master branch.
-  
-  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-  This is very important as it allows me to accept your pull request without having to publish a public version release.
-  
-  Small, atomic Features, bugs, etc.   
-  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
-  Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-  
-  For Big Features or major API extensions/edits:   
-  This is the one case where I'll accept pull-requests based off the master branch.
-  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
- 
-- **Jekyll-Bootstrap Documentation Website.**    
-  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
-  Please fork and contribute documentation additions to this branch only.
-
-The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
+Struggleliu's Blog
 
 
-## License
+说明
+====
 
-[MIT](http://opensource.org/licenses/MIT)
+以前坚持一段时间写blog，后来感觉很繁琐，没什么特别有价值的东西可以写的，后来就慢慢放弃了。
+最近感觉自己学了很多东西，但是没有慢慢沉淀下来。从写blog开始吧！
+
+
+reStructuredText + sphinx + github
+==================================
+
+参考：http://blog.ftao.org/2011/05/28/write-user-manual-using-restructredtest-and-sphinx/
+不知道对静态图片的支持如何
+
+
+markdown + github
+==================================
+
+参考: http://wowubuntu.com/markdown/#overview
+
+Git 使用
+=================================
+参考： http://rogerdudler.github.com/git-guide/
+
+
