@@ -23,3 +23,56 @@ maven工程依赖分析插件，能后很好分析工程依赖问题，主要解
 
 maven 编译插件，设置编译参数，打包配置等，非常有用。详情和配置参见：<http://maven.apache.org/plugins/maven-compiler-plugin/>
 
+### Maven AppAssembler Plugin
+参考： http://mojo.codehaus.org/appassembler/appassembler-maven-plugin/
+
+这个插件可以在maven
+package过程中，自动生成启动java程序的shell脚本，省去手工写java命令和管理依赖包的问题。
+配置例子:
+
+	<plugin>
+	    <groupId>org.codehaus.mojo</groupId>
+	    <artifactId>appassembler-maven-plugin</artifactId>
+	    <version>1.1.1</version>
+	    <executions>
+		<execution>
+		    <id>make-assembly</id>
+		    插件会在maven package阶段运行
+		    <phase>package</phase>
+		    <goals>
+		        <goal>assemble</goal>
+		    </goals>
+		</execution>
+	    </executions>
+	    <configuration>
+	    
+		配置文件放置位置
+		<configurationDirectory>conf</configurationDirectory>
+		<configurationSourceDirectory>src/main/conf</configurationSourceDirectory>
+		<copyConfigurationDirectory>true</copyConfigurationDirectory>
+		<includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
+		
+		依赖库放置位置
+		<repositoryLayout>flat</repositoryLayout>
+		<repositoryName>lib</repositoryName>
+		
+		生成目录结构的位置
+		<assembleDirectory>${project.build.directory}/${project.name}-${project.version}</assembleDirectory>
+		
+		支持平台，脚本后缀等，默认还会产生win的bat脚本
+		       <binFileExtensions>
+		    <unix>.sh</unix>
+		</binFileExtensions>
+		<platforms>
+		    <platform>unix</platform>
+		</platforms>
+		
+		<programs>
+		    <program>
+		        指定脚本的名字和入口是那个类，需要保证这个类有main函数
+		        <mainClass>com.xxxx.Main</mainClass>
+		        <name>Main</name>
+		    </program>
+		</programs>
+	    </configuration>
+	</plugin>
