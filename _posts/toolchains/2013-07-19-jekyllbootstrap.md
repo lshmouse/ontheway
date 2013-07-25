@@ -35,6 +35,14 @@ see: <http://localhost:4000/>
 ###MarkDown 语法参考
 <http://wowubuntu.com/markdown/>
 
+###插入图片
+参考：<http://jekyllrb.com/docs/posts/>
+
+将图片放在assets目录下，使用变量：site.url 够在图片的url
+
+    … which is shown in the screenshot below:
+    ![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+
 ###参考
 -<http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html>
 -<http://jekyllbootstrap.com/usage/jekyll-quick-start.html>
