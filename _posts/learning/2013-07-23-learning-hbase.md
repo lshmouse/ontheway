@@ -11,7 +11,7 @@ categories:
 ####变化个数的列
 
 ###架构
-![hbase architecture]({{ site.url }}/assets/img/hbase-arch.png)
+![hbase architecture]({{BASE_PATH}}/assets/img/hbase-arch.png)
 
 ####水平扩展
 ####读写流程
