@@ -42,15 +42,20 @@ HMaster没不存储任何关键信息, hbase路由信息存储在ROOT和META表�
 对于很多数据以用户为中心的互联网产品数据，通过设置region拆分策略(), 保证一个用户的数据一定落在一个region上，不会跨region。
 这样对这个用户跨row的操作就可以保证强一致性。
 ####mapreduce支持
+hbase扩展hadoop mapreduce的输入输出流，使得mapreduce作业可以非常方便的直接读写hbase。
 ####Coproccsor
 
 ###部署
 ####测试环境
 minicluster. standalone
 ####生产环境
-hadoop/zookeeper, 依赖系统服务ntp
+生产环境部署，hadoop依赖hdfs作为分布式文件系统，作为数据的持久化存储，依赖zookeeper提高的分布式锁等服务。在系统层面上， 
+还依赖系统ntp服务保证regionserver之间的时钟同步（很多hdfs/hbase依赖租约协议）。
+
 ####异步跨机房备份
 ![hbase replication]({{ site.url }}/assets/img/hbase-replication.png)
+####安全&权限
+hadoop/hbase在kerberos认证基础上实现列级别的权限管理，能够保证数据安全，防止非法用户访问。
 
 ###hbase社区
 
