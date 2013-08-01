@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 'learning golang'
@@ -7,6 +6,7 @@ categories:
 - learning
 ---
 
+{% include JB/setup %} 
 
 ###Startup
 ####环境配置
