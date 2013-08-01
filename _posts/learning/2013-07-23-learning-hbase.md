@@ -55,7 +55,7 @@ minicluster. standalone
 还依赖系统ntp服务保证regionserver之间的时钟同步（很多hdfs/hbase依赖租约协议）。
 
 ####异步跨机房备份
-![hbase replication]({{ site.url }}/assets/img/hbase-replication.png)
+![hbase replication]({{ BASE_PATH }}/assets/img/hbase-replication.png)
 ####安全&权限
 hadoop/hbase在kerberos认证基础上实现列级别的权限管理，能够保证数据安全，防止非法用户访问。
 
