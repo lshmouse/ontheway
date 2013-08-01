@@ -5,11 +5,11 @@ tags: [hbase]
 categories:
 - learning
 ---
+{% include JB/setup %}
 
 ###数据模型
 ####面向列的存储
 ####变化个数的列
-{{BASE_PATH}}
 
 ###架构
 
