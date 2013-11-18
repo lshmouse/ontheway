@@ -29,3 +29,14 @@ http://www.ituring.com.cn/article/39053
 
 <http://go-lang.cat-v.org/go-code>
 
+skynet <https://github.com/skynetservices/skynet>
+groupcache <https://github.com/golang/groupcache>
+leveldb <code.google.com/p/leveldb-go/leveldb>
+doozerd <https://github.com/4ad/doozerd>
+
+vitess: mysql proxy <https://github.com/youtube/vitess>
+
+docker: <https://github.com/dotcloud/docker> 
+
+other go projects: <http://code.google.com/p/go-wiki/wiki/Projects>
+
