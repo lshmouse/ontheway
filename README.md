@@ -17,7 +17,6 @@ reStructuredText + sphinx + github
 参考：http://blog.ftao.org/2011/05/28/write-user-manual-using-restructredtest-and-sphinx/
 不知道对静态图片的支持如何
 
-
 markdown + github
 ==================================
 
@@ -27,4 +26,7 @@ Git 使用
 =================================
 参考： <http://rogerdudler.github.com/git-guide/>
 
-
+http://jekyllrb.com/
+=========================
+local test: jekyll serve
+see: http://localhost:4000/

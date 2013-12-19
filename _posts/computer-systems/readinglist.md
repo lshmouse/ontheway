@@ -22,5 +22,3 @@ ARM instruction set
 Papers
 ======================
 google: GFS/mapreduce/bigtable
-
-

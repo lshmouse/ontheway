@@ -8,7 +8,7 @@ categories:
 
 {% include JB/setup %} 
 
-<https://github.com/continuuity/weave>
+https://github.com/continuuity/weave
 
 ### nameservice用途
 
