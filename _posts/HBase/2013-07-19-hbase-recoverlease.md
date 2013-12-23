@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "hbase recover lease"
-category: hbase 
-tags: [hbase, leaserecover]
+category: HBase 
+tags: [HBase, leaserecover]
 ---
 {% include JB/setup %}
 

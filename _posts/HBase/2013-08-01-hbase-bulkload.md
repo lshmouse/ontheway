@@ -2,8 +2,8 @@
 layout: post
 title: "hbase bulkload"
 description: ""
-category: hbase 
-tags: [hbase]
+category: HBase 
+tags: [HBase]
 ---
 {% include JB/setup %}
 

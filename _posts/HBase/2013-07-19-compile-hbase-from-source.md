@@ -2,7 +2,7 @@
 layout: post
 title: "compile hbase from source"
 description: ""
-category: hbase 
-tags: [hbase]
+category: HBase
+tags: [HBase]
 ---
 {% include JB/setup %}
