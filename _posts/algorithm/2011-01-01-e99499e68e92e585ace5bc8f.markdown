@@ -5,8 +5,7 @@ date: 2011-01-01 01:01:01+00:00
 layout: post
 title: 错排公式
 tags: [algorithm, math]
-categories:
-- algorithm
+categories: [algorithm]
 ---
 
 N对事件的错排公式：  
