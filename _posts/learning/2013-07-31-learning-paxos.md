@@ -9,3 +9,10 @@ categories:
 
 ###2pc
 <http://www.searchtb.com/2013/06/consensus-made-simple-2.html>
+
+
+###paxos
+
+总结：
+http://the-paper-trail.org/blog/consensus-protocols-paxos/
+
