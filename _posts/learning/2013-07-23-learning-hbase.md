@@ -94,7 +94,11 @@ standalone模式和distributed模式区别在hbase使用是本地文件系统而
 
 TODO(实际部署的物理视图)
 
- 
+####局部二级索引
+see:
+
+http://hadoop-hbase.blogspot.com/2012/02/limited-cross-row-transactions-in-hbase.html
+
 ####异步跨机房备份
 ![hbase replication]({{ BASE_PATH }}/assets/img/hbase-replication.png)
 ####安全&权限
