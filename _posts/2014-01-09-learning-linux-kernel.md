@@ -25,3 +25,5 @@ tags: []
 推荐一篇blog：
 成为Linux内核高手的4个方法 http://www.iteye.com/news/28680
 
+最新kernel 下载： https://www.kernel.org/
+
