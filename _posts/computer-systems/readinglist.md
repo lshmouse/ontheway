@@ -22,3 +22,9 @@ ARM instruction set
 Papers
 ======================
 google: GFS/mapreduce/bigtable
+
+
+###课程
+2014年认真读完这些paper
+
+http://courses.engr.illinois.edu/cs525/sched.html
