@@ -21,4 +21,10 @@ tags: []
  java -version
 
 ## 参考
-http://jvm.taobao.org/index.php/Build_TaobaoJVM%E7%9A%84%E6%96%B9%E6%B3%95
+*http://jvm.taobao.org/index.php/Build_TaobaoJVM%E7%9A%84%E6%96%B9%E6%B3%95
+*http://www.slideshare.net/RednaxelaFX/hotspot-vm20120303
+*http://en.wikipedia.org/wiki/HotSpot
+
+sun jdk/ open jdk / HotSpot VM 对应表
+*https://gist.github.com/rednaxelafx/925323
+
